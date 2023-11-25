@@ -1,0 +1,110 @@
+.navbar {
+    overflow: hidden;
+    background-color: #0b0b0b;
+  }
+  
+  /* Navigation links */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The subnavigation menu */
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Subnav button */
+  .subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  /* Add a red background color to navigation links on hover */
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: red;
+  }
+  
+  /* Style the subnav content - positioned absolute */
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: red;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  /* Style the subnav links */
+  .subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Add a grey background color on hover */
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  
+  /* When you move the mouse over the subnav container, open the subnav content */
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+  .demo{
+    background-color: black;
+    width: 1519px;
+    height: 60px;
+  }
+  .info{
+    background-color: white;
+    width: 1370px;
+    height: 100px;
+  }
+  #marq{
+    background-color: white;
+    width: 1001px;
+    height: 1001px;
+  }
+.express{
+  margin-top: 90px;
+  margin-left: 80px;
+  background-color: #c4bebe;
+  width: 700px;
+  height: 400px;
+}
+.post{
+  margin-left: 100px;
+}
+/* .expo{
+  margin-left: 800px;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(169, 184, 197);
+  margin-top: -480px;
+  margin-bottom: 100px;
+} */
+h5{
+  margin-left: 50px;
+
+}
+.footer{
+  background-color: #0b0b0b;
+  width: 1480px;
+  height: 90px;
+  color: white;
+  text-align: center;
+  
+}
